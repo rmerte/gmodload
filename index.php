@@ -50,7 +50,7 @@ body {
 	
 	<div class="two">
 	
-		<div class="container ekip border"><b>Yönetim Ekibi</b></div>
+		<div class="container ekip border"><b>Staff</b></div>
 		<div class="ekipavatarlar">
 			<div class="polaroid">
 			
@@ -111,12 +111,12 @@ body {
 		</div> <!-- ekipavatar bitiş -->
 		<div class="containertwo">
 			<div class="three">
-				<div class="duyurubaslik">Duyurular</div>
+				<div class="duyurubaslik">Announcements</div>
 				<p class="duyuru"><?php echo $duyuru; ?></p>
 			</div>
 		</div>
 		
-		<div class="four"><div class="duyurubaslik">Sunucu Bilgileri</div>
+		<div class="four"><div class="duyurubaslik">Server</div>
 		
 		<div><i class="fas fa-star"></i><div class="sunucubilgileri"><?php echo $servername; ?></div></div>
 		<div><i class="fas fa-user"></i><div class="sunucubilgileri"><?php echo $kapasite; ?></div></div>
